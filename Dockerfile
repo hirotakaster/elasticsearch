@@ -15,6 +15,12 @@ RUN \
   rm -f elasticsearch-1.2.2.tar.gz && \
   mv /tmp/elasticsearch-1.2.2 /elasticsearch
 
+# Install Kuromoji Plugin
+RUN /elasticsearch/bin/plugin -install elasticsearch/elasticsearch-analysis-kuromoji/2.2.0
+
+# Install HQ Plugin
+RUN /elasticsearch/bin/plugin -install royrusso/elasticsearch-HQ
+
 # Define mountable directories.
 VOLUME ["/data"]
 
