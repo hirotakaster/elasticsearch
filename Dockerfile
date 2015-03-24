@@ -16,7 +16,7 @@ RUN \
   mv /tmp/elasticsearch-1.5.0 /elasticsearch
 
 # Install Kuromoji Plugin
-#RUN /elasticsearch/bin/plugin -install elasticsearch/elasticsearch-analysis-kuromoji/2.5.0
+# RUN /elasticsearch/bin/plugin -install elasticsearch/elasticsearch-analysis-kuromoji/2.4.2
 
 # Install Marvel Plugin
 RUN /elasticsearch/bin/plugin -i elasticsearch/marvel/latest
