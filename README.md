@@ -2,7 +2,7 @@
 
 
 This repository contains **Dockerfile** of [ElasticSearch](http://www.elasticsearch.org/) for [Docker](https://www.docker.io/)'s [trusted build](https://index.docker.io/u/dockerfile/elasticsearch/) published to the public [Docker Registry](https://index.docker.io/).
-And this Dockerfile install [kuromoji](https://github.com/elasticsearch/elasticsearch-analysis-kuromoji), [elastic-HQ](https://github.com/royrusso/elasticsearch-HQ) plugin.
+And this Dockerfile install [kuromoji](https://github.com/elasticsearch/elasticsearch-analysis-kuromoji), [Marvel](https://www.elastic.co/downloads/marvel) plugin.
 
 
 ### Dependencies
